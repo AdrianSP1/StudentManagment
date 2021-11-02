@@ -5,7 +5,7 @@ import java.util.List;
 import com.example.StudentManagment.entity.Student;
 
 public interface StudentService {
-	List <Student> getAllStudentts();
+	List <Student> getAllStudents();
 	
 	Student saveStudent(Student student);
 	
